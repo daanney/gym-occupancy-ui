@@ -1,0 +1,50 @@
+.gymName {
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 0;
+}
+
+.gymType {
+	margin: -10px 0 0 0;
+	padding: 0;
+}
+
+.forecast::after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.forecast {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+}
+
+.forecast .timeGroup {
+	height: 40px;
+	font-size: 10px;
+	padding: 0 1px;
+}
+
+.forecast .timeGroup .free {
+	background-color: transparent;
+	text-align: center;
+	color: darkgray;
+	font-size: 8px;
+}
+
+.forecast .timeGroup .busy {
+	background-color: rgb(78, 121, 0);
+	margin: 0 5px;
+}
+
+
+.forecast .timeGroup.historic .busy {
+	background-color: rgb(158, 158, 158);
+}
+
+
+.forecast .timeGroup.current .busy {
+	background-color: rgb(0, 100, 30);
+}

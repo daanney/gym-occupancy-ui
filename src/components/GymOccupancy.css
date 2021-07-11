@@ -1,0 +1,14 @@
+#GymOccupancy::after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.occupancyChart {
+	float: left;
+}
+
+.gymDetails {
+	float: left;
+	padding-left: 20px;
+}
